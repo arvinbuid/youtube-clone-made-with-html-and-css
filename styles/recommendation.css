@@ -1,0 +1,31 @@
+.recommendation-container {
+  display: flex;
+  gap: 13px;
+}
+
+.recommendation,
+.recommendation-active {
+  background-color: rgb(235, 235, 235);
+  padding: 11px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.recommendation-active {
+  background-color: black;
+  color: white;
+}
+
+.recommendation:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+@media (min-width: 186px) {
+  .recommendation-container {
+    display: flex;
+    white-space: nowrap;
+  }
+}
